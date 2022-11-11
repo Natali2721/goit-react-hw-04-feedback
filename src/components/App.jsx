@@ -10,8 +10,8 @@ export const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
-  const clickOnBtn = options => {
-    switch (options) {
+  const clickOnBtn = option => {
+    switch (option) {
       case 'good':
         setGood(state => state + 1);
         break;
